@@ -1,4 +1,5 @@
 gh
+goreleaser/tap/goreleaser
 kubernetes-cli
 openjdk
 protoc-gen-go
@@ -7,4 +8,5 @@ ripgrep
 shellcheck
 starship
 the_silver_searcher
+wget
 zsh
