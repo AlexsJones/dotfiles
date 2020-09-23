@@ -1,10 +1,14 @@
+asciinema
+cscope
 gh
 goreleaser/tap/goreleaser
 kubernetes-cli
+lua
 openjdk
 protoc-gen-go
 pv
 ripgrep
+ruby
 shellcheck
 starship
 the_silver_searcher

@@ -432,7 +432,7 @@ nnoremap <Leader>o :.Gbrowse<CR>
 " go
 " vim-go
 nnoremap <Leader>d :GoDef<CR>
-
+nnoremap <Leader>r :GoReferrers<CR>
 " call the completion function on dot
 au filetype go inoremap <buffer> . .<C-x><C-o>
 set completeopt=longest,menuone
@@ -489,7 +489,8 @@ augroup go
   au FileType go nmap <Leader>dv <Plug>(go-doc-vertical)
   au FileType go nmap <Leader>db <Plug>(go-doc-browser)
 
-  au FileType go nmap <leader>r  <Plug>(go-run)
+  "I prefer to bind this to reference look up
+  "au FileType go nmap <leader>r  <Plug>(go-run)
   au FileType go nmap <leader>t  <Plug>(go-test)
   au FileType go nmap <Leader>gt <Plug>(go-coverage-toggle)
   au FileType go nmap <Leader>i <Plug>(go-info)
