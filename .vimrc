@@ -48,6 +48,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'stephpy/vim-yaml'
 Plug 'hashivim/vim-terraform'
+Plug 'tpope/vim-eunuch'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else

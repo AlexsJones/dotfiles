@@ -2,6 +2,7 @@ asciinema
 cscope
 gh
 goreleaser/tap/goreleaser
+k9s
 kubernetes-cli
 lua
 openjdk
