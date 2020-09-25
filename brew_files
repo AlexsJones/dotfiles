@@ -5,6 +5,7 @@ goreleaser/tap/goreleaser
 k9s
 kubernetes-cli
 lua
+neofetch
 openjdk
 protoc-gen-go
 pv
