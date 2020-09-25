@@ -12,10 +12,11 @@ files_set() {
 }
 verify() {
     
-    if brew ls --versions myformula > /dev/null; then
+    if brew ls --versions > /dev/null; then
     echo "brew installed"
     else
     echo "brew not installed"
+    exit 1
     fi
 }
 
