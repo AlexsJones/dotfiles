@@ -1,9 +1,12 @@
 asciinema
+civo/tools/civo
 cscope
 gh
 goreleaser/tap/goreleaser
+jq
 k9s
 kubernetes-cli
+linkerd
 lua
 neofetch
 openjdk
@@ -13,6 +16,9 @@ ripgrep
 ruby
 shellcheck
 starship
+step
+tfenv
 the_silver_searcher
+tree
 wget
 zsh
