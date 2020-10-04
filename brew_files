@@ -1,11 +1,12 @@
 asciinema
 civo/tools/civo
 cscope
+fzf
 gh
 goreleaser/tap/goreleaser
 jq
 k9s
-kubernetes-cli
+kubectx
 linkerd
 lua
 neofetch

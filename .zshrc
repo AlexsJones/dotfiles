@@ -98,3 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 neofetch
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
