@@ -92,11 +92,11 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
+alias k=kubectl
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
+SPACESHIP_DOCKER_SHOW=false
 neofetch
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

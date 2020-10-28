@@ -49,6 +49,7 @@ Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
 Plug 'stephpy/vim-yaml'
 Plug 'hashivim/vim-terraform'
 Plug 'tpope/vim-eunuch'
+Plug 'morhetz/gruvbox'
 if isdirectory('/usr/local/opt/fzf')
   Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
 else
@@ -143,7 +144,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
-silent! colorscheme molokai
+silent! colorscheme gruvbox
 
 set mousemodel=popup
 set t_Co=256
