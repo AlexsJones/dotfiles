@@ -98,5 +98,6 @@ alias k=kubectl
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
 SPACESHIP_DOCKER_SHOW=false
+eval "$(starship init zsh)"
 neofetch
 

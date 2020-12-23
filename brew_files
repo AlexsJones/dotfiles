@@ -1,12 +1,15 @@
 asciinema
+cassandra
 civo/tools/civo
 cscope
 fzf
 gh
 goreleaser/tap/goreleaser
+hashicorp/tap/waypoint
 jq
 k9s
 kind
+krew
 kubectx
 linkerd
 lua
@@ -21,9 +24,9 @@ ruby
 shellcheck
 starship
 step
+stern
 tfenv
 the_silver_searcher
 tree
-hashicorp/tap/waypoint
 wget
 zsh
