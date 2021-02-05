@@ -100,4 +100,4 @@ alias k=kubectl
 SPACESHIP_DOCKER_SHOW=false
 eval "$(starship init zsh)"
 neofetch
-
+. $(pack completion -s zsh)
