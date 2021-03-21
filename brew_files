@@ -9,6 +9,7 @@ eksctl
 fzf
 gh
 git
+go-swagger/go-swagger/go-swagger
 goreleaser/tap/goreleaser
 graphviz
 hashicorp/tap/waypoint
@@ -23,6 +24,7 @@ kubectx
 linkerd
 lua
 neofetch
+nvm
 openjdk
 pandoc
 prometheus
