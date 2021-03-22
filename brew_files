@@ -1,7 +1,6 @@
 asciinema
 awscli
 buildpacks/tap/pack
-cassandra
 civo/tools/civo
 cscope
 docker-credential-helper-ecr
@@ -15,8 +14,6 @@ graphviz
 hashicorp/tap/waypoint
 infracost
 jq
-k14s/tap/kapp
-k14s/tap/ytt
 k9s
 kind
 krew
@@ -26,14 +23,11 @@ lua
 neofetch
 nvm
 openjdk
-pandoc
-prometheus
 protoc-gen-go
 pv
 riff
 ripgrep
 ruby
-shellcheck
 starship
 step
 stern
