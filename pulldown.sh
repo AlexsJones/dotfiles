@@ -1,7 +1,7 @@
 #!/bin/bash
 
 brew_get() {
-brew leaves > brew_files
+brew list --full-name | sort > brew_files
 }
 files_get() {
     cp "$HOME/.vimrc" .
