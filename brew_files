@@ -31,9 +31,12 @@ gobject-introspection
 goreleaser/tap/goreleaser
 graphite2
 graphviz
+grep
 gts
 harfbuzz
 hashicorp/tap/waypoint
+helm
+hidapi
 icu4c
 ilmbase
 imagemagick
