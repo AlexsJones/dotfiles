@@ -144,6 +144,7 @@ set ruler
 set number
 
 let no_buffers_menu=1
+set background=dark
 silent! colorscheme gruvbox
 
 set mousemodel=popup
