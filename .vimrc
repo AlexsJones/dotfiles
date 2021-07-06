@@ -205,6 +205,8 @@ set statusline=%F%m%r%h%w%=(%{&ff}/%Y)\ (line\ %l\/%L,\ col\ %c)\
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
+nnoremap <leader>b :GoDebugBreakpoint<CR>
+nnoremap <leader>n :GoDebugContinue<CR>
 
 
 if exists("*fugitive#statusline")
@@ -352,6 +354,8 @@ if executable('ag')
   set grepprg=ag\ --nogroup\ --nocolor
 endif
 
+nnoremap <silent> <Leader>f :Ag<CR>
+
 " ripgrep
 if executable('rg')
   let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git/*"'
@@ -364,7 +368,7 @@ nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>e :FZF -m<CR>
 "Recovery commands from history through FZF
 nmap <leader>y :History:<CR>
-nnoremap <silent> <Leader>f :Rg<CR>
+" nnoremap <silent> <Leader>f :Rg<CR>
 " snippets
 let g:UltiSnipsExpandTrigger="<tab>"
 let g:UltiSnipsJumpForwardTrigger="<tab>"
