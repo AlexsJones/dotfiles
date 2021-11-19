@@ -8,7 +8,9 @@ brew_set() {
 }
 files_set() {
     cp .vimrc "$HOME/.vimrc" 
-    cp .zshrc "$HOME/.zshrc" 
+    cp .zshrc "$HOME/.zshrc"
+    mkdir -p "$HOME/.config"
+    cp starship.toml "$HOME/.config/starship.toml"
 }
 verify() {
     
