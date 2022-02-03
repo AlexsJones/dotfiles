@@ -118,3 +118,10 @@ fd() {
 # Please make sure this block is at the end of this file.
 [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
 #### END FIG ENV VARIABLES ####
+autoload -U compinit; compinit
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/alexjones/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/alexjones/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/alexjones/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/alexjones/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
