@@ -13,7 +13,6 @@ fzf
 gh
 gifsicle
 git-lfs
-go
 go-swagger/go-swagger/go-swagger
 goreleaser/tap/goreleaser
 graphviz
@@ -32,7 +31,9 @@ k9s
 kind
 kreuzwerker/taps/m1-terraform-provider-helper
 krew
+kubebuilder
 kubectx
+kustomize
 linkerd
 lua
 neofetch
@@ -46,6 +47,7 @@ prometheus
 protoc-gen-go
 pv
 pygobject3
+qemu
 redis
 riff
 ripgrep
@@ -59,6 +61,7 @@ terragrunt
 tfenv
 tflint
 the_silver_searcher
+tilt
 tree
 ubuntu/microk8s/microk8s
 vte3
