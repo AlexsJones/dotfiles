@@ -6,7 +6,7 @@ Now optimised for M1
 
 ## Extras pre-requisites
 
-- snazzy iterm themehttps://github.com/sindresorhus/iterm2-snazzy
+- snazzy iterm theme https://github.com/sindresorhus/iterm2-snazzy
 - Fira https://www.nerdfonts.com/font-downloads
 
 
