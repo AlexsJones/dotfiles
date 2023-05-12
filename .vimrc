@@ -42,7 +42,6 @@ Plug 'Shougo/neomru.vim'
 Plug 'majutsushi/tagbar'
 Plug 'w0rp/ale'
 Plug 'vim-syntastic/syntastic'
-Plug 'Yggdroot/indentLine'
 Plug 'avelino/vim-bootstrap-updater'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-rhubarb' " required by fugitive to :Gbrowse
